@@ -1,0 +1,103 @@
+.body {
+  background-image: url("background.png"); 
+  background-color: #ccccccc;
+}
+
+.content {
+  background-color: GhostWhite;
+  width: 70%;
+  margin: auto;
+  border: 5px solid;
+  border-color: silver;
+  padding: 3%;
+  font-family: droid sans;
+height:100%;
+}
+
+.banner {
+  width: 85%;
+  padding-bottom: 2%;
+}
+
+.girl {
+  width: 25%;
+  float: left;
+  padding: 2%;
+}
+
+.logo {
+  width: 14%;
+  padding-bottom: 2%;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  border: 2px solid;
+  border-color: silver;
+  border-radius: .2em;
+  overflow: auto;
+  float: left;
+  font-size: 90%;
+  position: fixed;
+  background-color: #D8D4D5;
+}
+
+.menu li {
+  border-bottom: 2px solid silver;
+}
+
+.menu li a {
+  display: block;
+  color: #000;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #4682B4;
+}
+
+.slideshow{
+width:100%;}
+
+.text {
+  margin-left: 25%;
+  margin-right: 2%;
+}
+
+h1 {
+  color: #4682B4
+}
+
+h2 {
+  color: #4682B4;
+}
+
+.achievements {
+  border: 3px solid;
+  border-radius: .2em;
+  padding: 2%;
+  height:200px;
+  border-color: silver
+;
+}
+
+.image {width: 40%;
+    display: block;
+margin-left: auto;
+margin-right:auto;
+padding:2%;}
+
+.banner {width: 100%;
+}
+
+.form { border: 3px solid;
+  border-radius: .2em;
+  padding: 2%;
+  height:350px;
+  border-color: silver
+;
+}
