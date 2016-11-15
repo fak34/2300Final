@@ -1,8 +1,10 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <html>
 <head>
-<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="styles/styles.css">
+<title>About Us</title>
 </head>
 <body class="body">
   <div class="content">
@@ -14,8 +16,8 @@
       <h1>About Us</h1>
       
       
-      <div class= "achievements"> <p><img src= "images/laura_jones.jpg" class="girl"><h2>Meet our mentor: Dr. Laura Jones</h2>
-        Dr. Laura Jones is a Senior Research Associate in theoretical ecology and mathematical biology at Cornell University. She has been with Ithaca Girls' Math Circle for many years.</p></div>
+      <div class= "achievements"> <p><img src= "images/laura_jones.jpg" class="girl" alt="mentor"><h2>Meet our mentor: Dr. Laura Jones</h2>
+        Dr. Laura Jones is a Senior Research Associate in theoretical ecology and mathematical biology at Cornell University. She has been with Ithaca Girls' Math Circle for many years.</div>
 
       <p>Girls’ Math Circle began in Fall of 2011 after a large cohort of female math enthusiasts started middle school, and noticed that math was somehow no longer deemed a “cool” activity for girls.  
        Where elementary school Math Olympiad is pretty gender balanced, Math Club at Middle School was full of very confident and competitive boys, and few if any girls.   </p>
@@ -27,6 +29,8 @@
 		</p>
     </div>
   </div>
+  <?php include "include/subscribe_footer.php"; ?>
 </body>
+
 </html>
 

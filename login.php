@@ -3,8 +3,9 @@
 
 <html>
 <head>
-<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="styles/styles.css">
+<title>Login</title>
 </head>
 <body class="body">
   <div class="content">
@@ -19,7 +20,7 @@
       
       
       
-<html>
+
   
     <div class="achievements">
         
@@ -53,15 +54,22 @@
                     }
                 }
                 else{
-                    print ("<p>Cannot find login information.</p>");
+                    print ("<div class='text'><p>Cannot find login information.</p></div>");
                 }
             }
         }
         if (isset($_SESSION['logged_user'])){
             print "<p id='success'>Congratulations, you are logged in.</p><br>";
-        }      
+            print "<p id='success'>To edit and upload images, go to <a href='photos.php'>Add/Edit Photos</a></p><br>";
+            print "<p id='success'>To add an event, go to <a href='events.php'>Events</a></p><br>";
+            print "<p id='success'>To add a new member to the group, go to <a href='people.php'>People</a></p><br>";
+            print "<p><a href='include/logout.php'>Log me out</a></p>"; 
+        }  
+
         ?>
     </div>
+</div>
+</div>
 
 </body>
 </html>
