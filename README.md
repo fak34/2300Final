@@ -1,1 +1,1 @@
-# 2300FinalProject
+# Ithaca Girls' Math Circle Website
